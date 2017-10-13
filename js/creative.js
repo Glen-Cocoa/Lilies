@@ -67,5 +67,16 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
-
+  
 })(jQuery); // End of use strict
+
+ //IG element links to profile
+ $('#ig-button').on('click', function(){
+   window.open('https://www.instagram.com/lilies_and_tigers_/');
+ })
+ 
+//function to email when clicked
+ $('#email-button').on('click', function(){
+   window.location.href = "mailto:lilies.n.tigers@gmail.com";
+ })
+  
